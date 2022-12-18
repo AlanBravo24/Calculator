@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #22A39F;
+    text-align: center;
+    font-family: "Chivo Mono", monospace;
+    
+}
+
+#container {
+    background-color: #222222;
+    width: 35%;
+    height: 34rem;
+    margin: 2rem auto 0 auto;
+    padding: 2rem;
+    border: solid black 10px;
+
+}
+
+.screen {
+    background-color: #F3EFE0;
+    padding: 1rem;
+    font-size: 2rem;
+    border: solid black 3px;
+    text-align: right;
+
+    
+}
+
+/* Body */
+.body {
+    background-color:#434242;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+   
+}
+.num {
+    display: inline-block;
+    border: solid black 3px;
+    font-size: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    
+
+}
+.row{
+    padding: 5px;
+}
+
+.numbers {
+    padding: 1rem 2rem 0rem 2rem;
+    border: solid black 3px;
+}
+
+#d {
+    width: 1rem;
+}
+
+#equals{
+    background-color: rgb(251, 179, 44);
+}
+
+
+/* Footer */
+.brand {
+    color: #F3EFE0;
+}
+
+/* Animations */
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+/* Media Query */
+@media (max-width: 1028px) {
+    #container{
+        width: 70%;
+        height: 80%;
+    }
+    .num{
+        padding: 10px;
+    }
+    .numbers {
+        padding: 0;
+    }
+}
