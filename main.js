@@ -48,6 +48,7 @@ $(".num").on("click", function(){
     }
     else if (this.id === "c"){
         textScreen = [];
+        showResult = false;
         var textDisplay = textScreen.join("");
         $(".screen").text("Enter a number");
         $("body").css("background-color", "#22A39F"); 
