@@ -68,13 +68,14 @@ function solve(operation){
     $("body").css("background-color", "#3dafab");
     }
     try {
-        var result = eval(operation).toFixed(3);
+        var result = eval(operation).toFixed(2);
         $(".screen").text(result);
         showResult = true;
         equals();
             
     } catch {
         $(".screen").text("Error");
+        textScreen = [];
         showResult = true;
         error();
     }
