@@ -68,7 +68,7 @@ function solve(operation){
     $("body").css("background-color", "#3dafab");
     }
     try {
-        var result = eval(operation);
+        var result = eval(operation).toFixed(3);
         $(".screen").text(result);
         showResult = true;
         equals();
