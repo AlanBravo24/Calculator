@@ -47,6 +47,7 @@ $(".num").on("click", function(){
             var textDisplay = textScreen.join("")
             solve(textDisplay);
             textScreen = [];
+            showResult = false;
         }
     }
     else if (this.id === "c"){
