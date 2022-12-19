@@ -43,8 +43,11 @@ $(".num").on("click", function(){
         }
         
      else if (this.id === "equals"){
-        var textDisplay = textScreen.join("")
-        solve(textDisplay);
+        if (textScreen.length > 0){
+            var textDisplay = textScreen.join("")
+            solve(textDisplay);
+            textScreen = [];
+        }
     }
     else if (this.id === "c"){
         textScreen = [];
